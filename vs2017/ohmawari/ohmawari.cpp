@@ -1,5 +1,6 @@
 #include	"stdafx.h"
 
+#include	<algorithm>
 #include	<iostream>
 #include	<fstream>
 #include	<string>
