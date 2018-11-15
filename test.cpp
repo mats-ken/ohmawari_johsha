@@ -13,13 +13,13 @@ void	search_routes(
 			vector<int>				route,
 			vector<vector<int>>	&	routes
 ) {
-	if (2 < route.size() && route[0] == n) {
+	if ((2 < route.size()) && (route[0] == n)) {
 		route.push_back(n);
 		routes.push_back(route);
 		return;
 	}
 
-	if (0 < route.size() && route[route.size() - 1] == n) {
+	if ((0 < route.size()) && (route[route.size() - 1] == n)) {
 		return;
 	}
 
